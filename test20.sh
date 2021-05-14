@@ -1,0 +1,2 @@
+defps1="PS1='\\\[\\\e[39m\\\]\\\n\\\[\\\e[33m\\\]\\\d\\\[\\\e[0m\\\]\\\n\\\[\\\e[34m\\\]\\\t\\\[\\\e[0m\\\]\\\n\\\n\\\[\\\e[31m\\\]Underrated\\\[\\\e[0m\\\]\\\n\\\[\\\e[35m\\\]Kalihunter\\\[\\\e[0m\\\] : \\\[\\\e[0m\\\]\\\[\\\e[32m\\\]'"
+sed -i "s/.*PS1=.*/$defps1/" /data/data/com.termux/files/usr/etc/bash.bashrc
